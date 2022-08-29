@@ -8,7 +8,7 @@ library(VennDiagram)
 library(grid)
 library(gridExtra)
 #set working directory and read data####
-parent.dir="C:/Users/lumia/Dropbox (University of Michigan)/1. Haiqing Xu/1. Project/2. Random Promoter Projects/New_Analysis/New_YPD_analysis/Input"
+parent.dir="XXX"
 setwd(parent.dir)
 S1=read.csv(file="YPD_new_N6_Q20_total_S1_b.csv", sep=",",header = TRUE,stringsAsFactors = FALSE)
 S2=read.csv(file="YPD_new_N6_Q20_total_S2_b.csv", sep=",",header = TRUE,stringsAsFactors = FALSE)
@@ -107,8 +107,8 @@ Final_nc=haha1[haha1$barcode_cluster %in% n_control,]
 Final_pc=haha1[haha1$barcode_cluster %in% p_control,]
 haha1<-haha1[!haha1$barcode_cluster %in% union(n_control,p_control),]
 #Output analyzed data
-write.csv(haha1,'C:/Users/lumia/Dropbox (University of Michigan)/1. Haiqing Xu/1. Project/2. Random Promoter Projects/New_Analysis/New_YPD_analysis/Output/YPD_final_sum_up_data_V2.csv')
-write.csv(Final_nc,'C:/Users/lumia/Dropbox (University of Michigan)/1. Haiqing Xu/1. Project/2. Random Promoter Projects/New_Analysis/New_YPD_analysis/Output/YPD_final_negative_control_data_V2.csv')
-write.csv(Final_pc,'C:/Users/lumia/Dropbox (University of Michigan)/1. Haiqing Xu/1. Project/2. Random Promoter Projects/New_Analysis/New_YPD_analysis/Output/YPD_final_positive_control_data_V2.csv')
+write.csv(haha1,'YPD_final_sum_up_data_V2.csv')
+write.csv(Final_nc,'YPD_final_negative_control_data_V2.csv')
+write.csv(Final_pc,'YPD_final_positive_control_data_V2.csv')
 
 
