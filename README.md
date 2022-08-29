@@ -4,8 +4,9 @@ Scrips for analyzing the random promoter project
 Sequencing data for expression and linkage is deposited at: 
 
 ## 2. Scrips to extract linkage information
-Refer to the folder Linkage_information_generation
-Linkage_information_generation.bash contains all the procedures.
+* Refer to the folder Linkage_information_generation
+* Linkage_information_generation.bash contains all the procedures.
+* For using the linkage information, please refer to YPD_RD_expression_total_method.ipynb
 
 ## 3. Scrips to extract expression information
 * Refer to the folder expression_information_generation
