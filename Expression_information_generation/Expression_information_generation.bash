@@ -3,8 +3,8 @@
 
 #“#SBATCH” directives that convey submission options:
 
-#SBATCH --job-name=210302_haiqing_YPD_new_QC_1
-#SBATCH --mail-user=xhq@umich.edu
+#SBATCH --job-name=xxx
+#SBATCH --mail-user=xxxx
 #SBATCH --cpus-per-task=1
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
