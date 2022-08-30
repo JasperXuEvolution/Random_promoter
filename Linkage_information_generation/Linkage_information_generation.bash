@@ -4,7 +4,7 @@
 #“#SBATCH” directives that convey submission options:
 
 #SBATCH --job-name=XX
-#SBATCH --mail-user=xhq@umich.edu
+#SBATCH --mail-user=xxx
 #SBATCH --cpus-per-task=1
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
