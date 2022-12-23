@@ -1,7 +1,7 @@
 # Random_promoter
 Scrips for analyzing the random promoter project
 ## 1. Data
-Sequencing data for expression and linkage is deposited at: 
+Sequencing data for expression and linkage is deposited at: https://www.ncbi.nlm.nih.gov/bioproject/876017
 
 ## 2. Scrips to extract linkage information
 * Refer to the folder Linkage_information_generation
