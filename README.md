@@ -1,8 +1,8 @@
 # Random_promoter
 Scrips for analyzing the random promoter project
 ## 1. Data
-Sequencing data for expression and linkage is deposited at: https://www.ncbi.nlm.nih.gov/bioproject/876017
-
+* Sequencing data for expression and linkage is deposited at: https://www.ncbi.nlm.nih.gov/bioproject/876017
+* Active promoters with expression and transcritpional factor binding site information is in file YPD_active_promoter_info_df.csv and SCD_active_promoter_info_df.csv
 ## 2. Scrips to extract linkage information
 * Refer to the folder Linkage_information_generation
 * Linkage_information_generation.bash contains all the procedures.
