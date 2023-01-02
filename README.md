@@ -18,6 +18,9 @@ Scrips for analyzing the random promoter project
 * Refer to the folder expression analysis
 * RD_data_processing.ipynb is for processing random promoter expression data
 
+## 5. RNAseq data pipelines
+* Refer to the folder RNAseq_data_generation
+
 ## 5. Plot figures
 * Refer to the folder Figures
 
