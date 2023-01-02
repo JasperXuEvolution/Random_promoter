@@ -14,4 +14,9 @@ Scrips for analyzing the random promoter project
 * YPD_expression_analysis.r contains the initial filtering and combining steps.
 * YPD_RD_expression_total_method.ipynb contains the steps for further filtering and combines the promtoer information.
 
+## 4. Expression data generation for random promoters
+* Refer to the file RD_data_processing.ipynb in folder expression_information_generation
+
+## 5. Plot figures
+* Refer to the folder Figures
 
