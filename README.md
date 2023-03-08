@@ -12,8 +12,8 @@ Scrips for analyzing the random promoter project
 ## 3. Scrips to extract expression information
 * Refer to the folder expression_information_generation
 * Expression_information_generation.bash contains all the procdures for extracting the expression information.
-* YPD_expression_analysis.r contains the initial filtering and combining steps.
-* YPD_RD_expression_total_method.ipynb contains the steps for further filtering and combines the promtoer information.
+* RD_data_processing_SCD.ipynb and RD_data_processing_YPD.ipynb contains the initial filtering and combining steps.
+* RD_data_processing_Step2.ipynb contains the steps for further filtering and compared expression of random promoter to controls
 
 ## 4. Expression data generation for random promoters
 * Refer to the folder expression analysis
