@@ -1,4 +1,0 @@
-Method,Number_of_total_barcode,Number_of_barcode,Number_of_barcode_overlap_with_Total_method,Number_of_overlap_among_IndividualMethod,Fraction_of_overlap_with_TotalMethod,Fraction_TotalMethod_overlap_with,Fraction_of_overlap_among_IndividualMethod,Number_of_barcode_unique
-S1,43,68,38,29,0.5588235294117647,0.8837209302325582,0.4264705882352941,30
-S2,43,82,39,29,0.47560975609756095,0.9069767441860465,0.35365853658536583,43
-S3,43,72,35,29,0.4861111111111111,0.813953488372093,0.4027777777777778,37
