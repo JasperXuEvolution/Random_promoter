@@ -6,21 +6,21 @@ Scrips for analyzing the random promoter project
 * Active promoter information is in the Data folder
 ## 2. Scrips to extract linkage information
 * Refer to the folder Linkage_information_generation
-* Linkage_information_generation.bash contains all the procedures.
+* Linkage_information_generation.bash contains the pipeline
 * For using the linkage information, please refer to YPD_RD_expression_total_method.ipynb
 
 ## 3. Scrips to extract expression information
 * Refer to the folder expression_information_generation
-* Expression_information_generation.bash contains all the procdures for extracting the expression information.
+* Expression_information_generation.bash contains the pipeline
 
 ## 4. Expression data generation for random promoters
 * Refer to the folder expression analysis
-* RD_data_processing_SCD.ipynb and RD_data_processing_YPD.ipynb contains the initial filtering and combining steps.
+* RD_data_processing_SCD.ipynb and RD_data_processing_YPD.ipynb contains the initial filtering and combining steps
 * RD_data_processing_Step2.ipynb contains the steps for further filtering and compared expression of random promoter to controls
 
 ## 5. RNAseq data pipelines
 * Refer to the folder RNAseq_data_generation
-* YPD_data_pipeline.bash/SCD_data_pipeline.bash is the Pipeline file
+* YPD_data_pipeline.bash/SCD_data_pipeline.bash are the pipeline files
 
 ## 5. Plot figures
 * Refer to the folder Figures
