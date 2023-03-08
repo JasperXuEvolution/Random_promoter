@@ -4,7 +4,7 @@
 #“#SBATCH” directives that convey submission options:
 
 #SBATCH --job-name=XX
-#SBATCH --mail-user=xxx
+#SBATCH --mail-user=XXX
 #SBATCH --cpus-per-task=1
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
@@ -12,7 +12,6 @@
 #SBATCH --time=72:00:00
 #SBATCH --account=lsa1
 #SBATCH --partition=standard
-
 
 # Home directory
 LP='XXXX'
@@ -26,6 +25,8 @@ module load singularity
 module load cd-hit/4.7
 
 # Step 1 QC
+
+mkdir -p "$LP/QC"
 fastqc -o $LP/QC $LP/Sequencing_data/19186FL-07-02_S10_L005_R1_001.fastq.gz $LP/Sequencing_data/19186FL-07-02_S10_L005_R2_001.fastq.gz
 
 
@@ -34,12 +35,12 @@ mkdir -p "$LP/Merged"
 AdapterRemoval --file1 $LP/Sequencing_data/19186FL-07-02_S10_L005_R1_001.fastq.gz  --file2 $LP/Sequencing_data/19186FL-07-02_S10_L005_R2_001.fastq.gz \
 --adapter1 AGATCGGAAGAGCACACGTCTGAACTCCAGTCACAACCGCGGATCTCGTATGCCGTCTTCTGCTTG --adapter2 AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGCGCTAGGTGTAGATCTCGGTGGTCGCCGTATCATT \
 --basename $LP/Merged/N6_Linkage --trimns --trimqualities --collapse 
-
+cat $LP/Merged/N6_Linkage.collapsed $LP/Merged/N6_Linkage.collapsed.truncated > $LP/Merged/N6_Linkage_total
 #Step_3 extract promoter and barcode
 mkdir -p "$LP/Filtered_data"
 python Total_lib_extraction_March_V2.py --a $LP/Merged/N6_Linkage_total --o $LP/Filtered_data/Linkage_lib_20b_120p_q10 --q 10
 
-#Step_4_1 cluster barcode
+#Step_4_1 cluster barcode using bartender
 python Barcode_deduplex.py --a $LP/Filtered_data/Linkage_lib_20b_q10_barcode \
 --b $LP/Filtered_data/Linkage_barcode_info --c $LP/Filtered_data/Linkage_barcode_bartender_input
 
@@ -47,7 +48,7 @@ mkdir -p "$LP/Bartender"
 bartender_single_com -z -1 -d 2 -l 5 -f $LP/Filtered_data/Linkage_barcode_bartender_input \
 -o $LP/Bartender/Linkage_barcode_clustered
 
-#Step_4_2 cluster promoter
+#Step_4_2 cluster promoter using cd-hit-est
 mkdir -p "$LP/Cluster_cdhit"
 python Promoter_deduplex.py --a $LP/Filtered_data/Linkage_lib_20b_q10_promoter \
 --b $LP/Filtered_data/Linkage_promoter_info --c $LP/Filtered_data/Linkage_promoter_cdhit_input
