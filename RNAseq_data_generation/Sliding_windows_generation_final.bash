@@ -3,8 +3,8 @@
 
 #“#SBATCH” directives that convey submission options:
 
-#SBATCH --job-name=220328_making_sliding_windows
-#SBATCH --mail-user=xhq@umich.edu
+#SBATCH --job-name=XXX
+#SBATCH --mail-user=XXX
 #SBATCH --cpus-per-task=1
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
@@ -16,7 +16,7 @@
 
 # your job commands below
 #for Q6
-LP='/nfs/turbo/lsa-mcdb-xhq/Haiqing/RD_Project/RNA_seq'
+LP='XXXX'
 module load Bioinformatics
 
 module load samtools
