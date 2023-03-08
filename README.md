@@ -4,6 +4,8 @@ Scrips for analyzing the random promoter project
 * Sequencing data for expression and linkage is deposited to NCBI (PRJNA876017 [https://www.ncbi.nlm.nih.gov/bioproject/876017])
 * RNA-Seq data for is from PRJNA728585 [https://www.ncbi.nlm.nih.gov/bioproject/PRJNA728585] and PRJNA392312 [https://www.ncbi.nlm.nih.gov/bioproject/PRJNA392312]
 * Active promoter information is in the folder Data 
+* All the intermediate data used for this study can be found at figshare [https://figshare.com/articles/dataset/Intermediate_data_for_Chance_promoter_activities_illuminate_the_origins_of_eukaryotic_intergenic_transcriptions_/22231603]
+
 ## 2. Scrips to extract linkage information
 * Refer to the folder Linkage_information_generation
 * Linkage_information_generation.bash contains the pipeline
@@ -22,6 +24,8 @@ Scrips for analyzing the random promoter project
 * Refer to the folder RNAseq_data_generation
 * YPD_data_pipeline.bash/SCD_data_pipeline.bash are the pipeline files
 
-## 5. Plot figures
+## 6. Motif analysis
+* Refer to the folder Motif analysis
+## 7. Plot figures
 * Refer to the folder Figures
 
