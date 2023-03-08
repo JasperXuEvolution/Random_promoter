@@ -12,15 +12,15 @@ Scrips for analyzing the random promoter project
 ## 3. Scrips to extract expression information
 * Refer to the folder expression_information_generation
 * Expression_information_generation.bash contains all the procdures for extracting the expression information.
-* RD_data_processing_SCD.ipynb and RD_data_processing_YPD.ipynb contains the initial filtering and combining steps.
-* RD_data_processing_Step2.ipynb contains the steps for further filtering and compared expression of random promoter to controls
 
 ## 4. Expression data generation for random promoters
 * Refer to the folder expression analysis
-* RD_data_processing.ipynb is for processing random promoter expression data
+* RD_data_processing_SCD.ipynb and RD_data_processing_YPD.ipynb contains the initial filtering and combining steps.
+* RD_data_processing_Step2.ipynb contains the steps for further filtering and compared expression of random promoter to controls
 
 ## 5. RNAseq data pipelines
 * Refer to the folder RNAseq_data_generation
+* YPD_data_pipeline.bash/SCD_data_pipeline.bash is the Pipeline file
 
 ## 5. Plot figures
 * Refer to the folder Figures
