@@ -3,14 +3,14 @@
 
 #“#SBATCH” directives that convey submission options:
 
-#SBATCH --job-name=xxx
-#SBATCH --mail-user=xxxx
+#SBATCH --job-name=XXX
+#SBATCH --mail-user=XXX
 #SBATCH --cpus-per-task=1
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --mem-per-cpu=15g 
 #SBATCH --time=72:00:00
-#SBATCH --account=lsa1
+#SBATCH --account=XXX
 #SBATCH --partition=standard
 
 
