@@ -3,7 +3,7 @@ Scrips for analyzing the random promoter project
 ## 1. Data
 * Sequencing data for expression and linkage is deposited to NCBI (PRJNA876017 [https://www.ncbi.nlm.nih.gov/bioproject/876017])
 * RNA-Seq data for is from PRJNA728585 [https://www.ncbi.nlm.nih.gov/bioproject/PRJNA728585] and PRJNA392312 [https://www.ncbi.nlm.nih.gov/bioproject/PRJNA392312]
-* Active promoter information is in the Data folder
+* Active promoter information is in the folder Data 
 ## 2. Scrips to extract linkage information
 * Refer to the folder Linkage_information_generation
 * Linkage_information_generation.bash contains the pipeline
