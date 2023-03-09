@@ -1,5 +1,5 @@
 # Random_promoter
-Scrips for analyzing the random promoter project
+Scrips for analyzing the data from "Chance promoter activities illuminate the origins of eukaryotic intergenic transcriptions"
 ## 1. Data
 * Sequencing data for expression and linkage is deposited to NCBI (PRJNA876017 [https://www.ncbi.nlm.nih.gov/bioproject/876017])
 * RNA-Seq data for is from PRJNA728585 [https://www.ncbi.nlm.nih.gov/bioproject/PRJNA728585] and PRJNA392312 [https://www.ncbi.nlm.nih.gov/bioproject/PRJNA392312]
