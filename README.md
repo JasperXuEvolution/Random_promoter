@@ -30,5 +30,5 @@ Scrips for analyzing the data from "Chance promoter activities illuminate the or
 ## 7. Plot figures
 * Refer to the folder Figures
 * Source_data_plotting_main_to_figS10.ipynb and Source_data_plotting_main_to_figS11_20.ipynb can plot all the figures in the paper using the source_data.zip
-* Figs_final can generate all the plots from the intermediate data
+* Figs_final.ipynb can generate all the plots from the intermediate data
 
