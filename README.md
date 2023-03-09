@@ -5,6 +5,7 @@ Scrips for analyzing the data from "Chance promoter activities illuminate the or
 * RNA-Seq data for is from PRJNA728585 [https://www.ncbi.nlm.nih.gov/bioproject/PRJNA728585] and PRJNA392312 [https://www.ncbi.nlm.nih.gov/bioproject/PRJNA392312]
 * Active promoter information is in the folder Data 
 * All the intermediate data used for this study can be found at figshare [https://figshare.com/articles/dataset/Intermediate_data_for_Chance_promoter_activities_illuminate_the_origins_of_eukaryotic_intergenic_transcriptions_/22231603]
+* Source data are in the folder data
 
 ## 2. Scrips to extract linkage information
 * Refer to the folder Linkage_information_generation
@@ -28,4 +29,6 @@ Scrips for analyzing the data from "Chance promoter activities illuminate the or
 * Refer to the folder Motif analysis
 ## 7. Plot figures
 * Refer to the folder Figures
+* Source_data_plotting_main_to_figS10.ipynb and Source_data_plotting_main_to_figS11_20.ipynb can plot all the figures in the paper using the source_data.zip
+* Figs_final can generate all the plots from the intermediate data
 
